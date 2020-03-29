@@ -1,0 +1,71 @@
+body {
+  margin: auto;
+  background-image: url(https://raw.githubusercontent.com/Build-Week-Bootcamp-Med-Cabinet/marketingPage/master/img/weed-bg.jpg);
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  background-color: #a98c6a;
+}
+header nav {
+  width: 40%;
+  display: flex;
+  text-align: right;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
+header nav a {
+  text-decoration: none;
+  color: #e1e9eb;
+}
+header nav a a:hover {
+  color: #12a324;
+  font-weight: bolder;
+}
+.logopic {
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 13px;
+}
+.aboutus {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.row {
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.row .member {
+  padding: 10px;
+  background-color: green;
+  opacity: 0.8;
+}
+h1,
+h4,
+p {
+  text-align: center;
+}
+footer {
+  height: 50px;
+  width: 80%;
+  background-color: #a98c6a;
+  opacity: 0.4;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+}
